@@ -1,4 +1,4 @@
-# Team Name: 
+# Team Name: Blacks in CS
 
 # Members:
 - Al Ayoola (Computer Science)
@@ -7,3 +7,4 @@
 - Stephon Mensah (Computer Science)
 
 # Project Topic Area: 
+- App/Web development tool
