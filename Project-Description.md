@@ -1,4 +1,4 @@
-# Team Name: Blacks in CS
+# Team Name: NubianNet Design
 
 # Members:
 - Al Ayoola (Computer Science)
