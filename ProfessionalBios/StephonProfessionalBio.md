@@ -3,7 +3,7 @@
 # Contact Information
 - mensahsk@mail.uc.edu
 
-# Co-op Work Experience
+# Co-op / Work Experience
 ## Software Engineer Intern, Dell Technologies, May - Aug. 2023
 - Data Science
 - Data Engineering
