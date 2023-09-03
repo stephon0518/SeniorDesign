@@ -1,4 +1,4 @@
-# Team Name: NubianNet Design
+# Team Name: Heritage Web Flow
 
 # Members:
 - Al Ayoola (Computer Science)
