@@ -1,4 +1,4 @@
-# Team Name: Heritage Web Flow
+# Team Name: AfroBytes
 
 # Members:
 - Al Ayoola (Computer Science)
