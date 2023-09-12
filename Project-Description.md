@@ -1,4 +1,4 @@
-# Team Name: AfroBytes
+# Team Name: PATS
 
 # Members:
 - Al Ayoola (Computer Science)
