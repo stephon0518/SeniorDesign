@@ -1,0 +1,18 @@
+Define the core features and functionalities that CityScope should have based on initial research and user stories.
+Design a wireframe mockup for the different pages of the web application.
+Set up the project architecture, deciding on tech stack and database choice.
+
+10/16/2023: Wireframe mockup, project architecure, and data schemas should be complete
+10/30/2023: database for storing information on restaurants should be complete
+11/13/2023: front-end interface should be complete
+11/27/2023: back-end interface should be complete
+12/11/2023: result page and beginning unit tests should be complete
+01/8/2023: calculation and suggestion of visiting times should be complete
+01/22/2023: interactive map and daily itinerary generato should be complete
+02/5/2023: usability tests and intergration tests should be complete
+02/19/2023: find or reject APIs/partnerships and stress test should be complete
+03/04/2023: recommendation algortihm should be improved, user manuals, and feedback mechanisms should be complete
+03/18/2023: research and App UI should be complete
+04/01/2023: UI testing should be conducted and 'Google Maps Platform API' should be integrated
+04/15/2023: Any necessary research and improvements should be complete
+
