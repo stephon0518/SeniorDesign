@@ -1,12 +1,24 @@
 # CityScope
 
-## Team names (include Advisor) and Project Abstract 
+## Team names and Project Abstract 
  - Stephon Mensah
  - Tamera Meadows
  - Al Ayoola
  - Pacific Mugisha
 
- - ### Project Advisor - Dr. Fred Annexstein
+### Project Advisor - Dr. Fred Annexstein
+## Project Abstract
+   Web application that recommends places to go in a city based
+   on what you’re looking for. So, potentially coffee shops, restaurants,
+   museums, gyms, libraries , etc. Let's say you're looking for coffee shops in
+   Cincinnati. Enter that into a prompt, enter the minimum rating the shop must
+   have, other features (free wifi, outdoor seating, child friendly, pet friendly, etc)
+   A list of places will be recommended that meet the criteria. Let’s say you’re
+   looking for restaurants to eat. You enter into a prompt a specific type of
+   cuisine you are seeking (Asian, Italian, American, etc). Enter any dietary
+   restrictions the restaurant must have (Vegetarian, Vegan, Gluten Free, etc).
+   Enter average ratings, and pricing. A list of restaurants that meet the criteria
+   will be recommended
 
 ## [Project Description](https://github.com/stephon0518/SeniorDesign/blob/main/Project-Description.md)
 
