@@ -1,12 +1,12 @@
 # CityScope
 
-## Team names (include Advisor) and Project Abstract (limit of 400 ascii chars)
+## Team names (include Advisor) and Project Abstract 
  - Stephon Mensah
  - Tamera Meadows
  - Al Ayoola
  - Pacific Mugisha
 
- - Project Advisor - Dr. Fred Annexstein
+ - ### Project Advisor - Dr. Fred Annexstein
 
 ## [Project Description](https://github.com/stephon0518/SeniorDesign/blob/main/Project-Description.md)
 
