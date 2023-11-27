@@ -1,0 +1,17 @@
+Design Diagram 0 description:
+
+This is the simplest flow presented. A user interacts directly with the app and receives place recommendations. There's no indication of account creation or preference setting, suggesting this might be a very straightforward app that doesn't require user registration or customization.
+
+Design Diagram 1 description:
+
+This flow introduces a new step before using the app: downloading it onto an Apple device, which suggests that the app is platform-specific.
+After the app is used, the user must specify the type of activity they're interested in, like searching for coffee shops, restaurants, etc.
+The final step is similar to Design Diagram 0, where the user receives place recommendations based on their specified interests.
+
+Design Diagram 2 description:
+
+This flow is more complex and detailed. It starts the same as Diagram 1, with the user downloading the app on an Apple device.
+Before the user can use the app, they must create an account, implying that this version of the app might offer more personalized recommendations and possibly save preferences or past searches.
+Once the account is created, the user's data is presumably stored in a database, which the app can then use to provide a more tailored experience.
+After the account creation, the user can use the app to specify their activity interest, just like in Design Diagram 1.
+Finally, the user receives place recommendations, which are likely informed by the data stored in the user's account.
