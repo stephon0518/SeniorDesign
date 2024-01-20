@@ -1,6 +1,6 @@
 1. Integration with External APIs:
 Integrate with external APIs (e.g., Google Maps, Yelp) to get place data additional information, reviews, and images.
-2.Search by Category:
+2. Search by Category:
 Allow users to search for different categories of places such as restaurants, museums, parks, coffee shops, libraries, etc.
 3. Filter by Rating:
 Enable users to filter places based on average rating (highest to lowest)
