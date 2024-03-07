@@ -13,7 +13,7 @@ export default function CityScopeSearchResults() {
             <div>Search Results</div>
             {location.state.businesses.map((business, index) => (
                 <div key={index}>
-                    <p>Name: {business.name}</p>
+                    <p>{business.name}</p>
                     <img src={business.image_url} alt={business.name} />
                     <p>Address: {business.location.address1}, {business.location.city}, {business.location.zip_code}</p>
                     <p>Phone: {business.display_phone}</p>
