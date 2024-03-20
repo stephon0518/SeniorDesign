@@ -8,7 +8,7 @@
 
 ### Project Advisor - Dr. Fred Annexstein
 ## Project Abstract
-Web application that recommends places to visit in a city based on what you’re looking for. So, restaurants, museums, parks, libraries, coffee shops, etc. Let's say you're looking for coffee shops in Cincinnati. Enter that into the search box and a list of coffee shops will be displayed. The user will then be able to sort the list of recommended coffee shops by rating, price or number of reviews. 
+Web application that recommends places to visit in Cincinnati based on what you’re looking for. So, restaurants, museums, parks, libraries, coffee shops, etc. Let's say you're looking for coffee shops in Cincinnati. Enter that into the search box and a list of coffee shops will be displayed. The user will then be able to sort the list of recommended coffee shops by rating, price or number of reviews. 
 
 ## [Project Description](https://github.com/stephon0518/SeniorDesign/blob/main/Project-Description.md)
 
