@@ -9,9 +9,17 @@ body {
     height: 100%;
 }
 
+/* body {
+    background-image: linear-gradient(to bottom, #890519, #342c56);
+    height: 100%;
+} */
+
+
 .pageTitle {
     position: relative;
     top: 250px;
+    font: bold;
+    font-size: larger;
 }
 
 .search {

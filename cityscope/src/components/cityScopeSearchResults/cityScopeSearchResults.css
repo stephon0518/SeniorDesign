@@ -3,20 +3,77 @@
     flex-direction: column;
     align-items: center;
     background-color: #890519;
-    padding: 20px; 
-   
-  }
-  
-  .container > div {
-    margin-bottom: 20px;
-    text-align: center; 
+    padding: 40px; /* Increased padding for more space */
 }
 
-  
+.container > div {
+    margin-bottom: 30px; /* Increased margin for more space between elements */
+    text-align: center;
+}
+
+.search-header {
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    padding: 40px; /* Increased padding for a larger header */
+    background-color: #2b060c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px; /* Increased spacing for more separation from content */
+}
+
+.search-header .logo {
+    height: 80px; /* Increased logo size for visibility */
+    margin-right: 20px; /* Increased space to not crowd the title */
+}
+
+.search-header h1 {
+    color: #ffffff;
+    font-size: 2.5rem; /* Increased font size for visibility */
+    margin: 0;
+}
+
+.select-container {
+    margin: 30px 0; /* Increased spacing for clearer separation */
+}
+
+select {
+    padding: 15px; /* Increased padding for easier interaction */
+    border-radius: 4px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.25rem; /* Increased font size for readability */
+    margin-bottom: 30px; /* Increased spacing for clearer separation */
+}
+
+.business-entry {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* Increased padding for more internal space */
+    margin-bottom: 30px; /* Increased margin for more space between entries */
+    width: 100%;
+    max-width: 500px; /* Increased maximum width for larger display */
+    word-wrap: break-word;
+}
+
+.business-entry img {
+    max-width: 100%; /* Responsive image width, kept at 100% */
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px; /* Increased space below the image */
+}
+
+.business-entry p {
+    text-align: left;
+    color: #333;
+    font-size: 1.2rem; /* Increased font size for readability */
+    margin-bottom: 15px; /* Increased space between paragraphs */
+}
 
 img {
-    
-    max-width: 400px; 
+    max-width: 800px; /* Adjust as necessary */
     object-fit: fill;
 }
 
