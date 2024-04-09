@@ -1,21 +1,30 @@
 .site-details-container {
-    background-color: #fff;
+    background-color: #890519;
     color: #333;
     padding: 2rem;
+    font-size: 3rem;
     text-align: center;
 }
 
 .site-details-header {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    font: bold;
 }
 
 .site-description {
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+}
+
+.site-description h2{
+    font-size: 1.8;
     margin-bottom: 2rem;
 }
 
 .team-section {
     margin-bottom: 2rem;
+    font-size:1rem;
 }
 
 .team-members {
