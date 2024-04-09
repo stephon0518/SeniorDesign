@@ -137,7 +137,7 @@ input[type=text] {
 
 .buttons-container {
     margin-top: 20px;
-    
+    margin-bottom:400px;
     /* margin: 0.5rem; */
     display: flex;
     flex-wrap: wrap;
