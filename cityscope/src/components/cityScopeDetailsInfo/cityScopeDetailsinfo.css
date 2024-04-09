@@ -1,0 +1,45 @@
+.site-details-container {
+    background-color: #fff;
+    color: #333;
+    padding: 2rem;
+    text-align: center;
+}
+
+.site-details-header {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.site-description {
+    margin-bottom: 2rem;
+}
+
+.team-section {
+    margin-bottom: 2rem;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.member-profile {
+    text-align: left;
+    width: 300px; /* Adjust the width as needed */
+}
+
+.member-profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Circular images */
+    margin-bottom: 1rem;
+}
+
+.member-profile h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Additional styles for typography and layout can be added here */
