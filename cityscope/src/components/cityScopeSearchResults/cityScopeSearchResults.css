@@ -7,14 +7,14 @@
 }
 
 .container > div {
-    margin-bottom: 30px; /* Increased margin for more space between elements */
+    margin-bottom: 100px; /* Increased margin for more space between elements */
     text-align: center;
 }
 
 .search-header {
     display:flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     width: 100%;
     padding: 40px; /* Increased padding for a larger header */
     background-color: #2b060c;
@@ -48,14 +48,16 @@ select {
 }
 
 .business-entry {
-    background: #fff;
+    /*background: #fff;*/
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 30px; /* Increased padding for more internal space */
-    margin-bottom: 30px; /* Increased margin for more space between entries */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1em; /* Increased padding for more internal space */
+    margin-bottom: 1em; /* Increased margin for more space between entries */
     width: 100%;
     max-width: 500px; /* Increased maximum width for larger display */
     word-wrap: break-word;
+    background: linear-gradient(to right, #c95050, #ffffff);
+
 }
 
 .business-entry img {
@@ -68,8 +70,17 @@ select {
 .business-entry p {
     text-align: left;
     color: #333;
-    font-size: 1.2rem; /* Increased font size for readability */
+    font-size: 1.3rem; /* Increased font size for readability */
     margin-bottom: 15px; /* Increased space between paragraphs */
+}
+
+.business-entry p1 {
+    text-align: left;
+    color: #333;
+    font-size: 2.2rem; /* Increased font size for readability */
+    margin-bottom: 15px; /* Increased space between paragraphs */
+    font:bold;
+    font-style: oblique;
 }
 
 img {
@@ -79,4 +90,42 @@ img {
 
 p {
     word-wrap: break-word;
+}
+
+.page-container {
+    display: flex;
+    min-height: 100vh; /* Use viewport height to make sidebar full height */
+}
+
+.sidebar {
+    width: 250px; /* Or whatever width you prefer */
+    background-color: #fff; /* Adjust the color to match your design */
+    padding: 1em;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Optional shadow for depth */
+}
+
+.filter-section {
+    /* Additional styling for your filter section */
+}
+
+.content {
+    flex-grow: 1;
+    padding: 1em;
+    background-color: #f0f0f0; /* Or any color that fits the theme */
+}
+
+.search-results-title {
+    align-items: flex-start;
+    font-size: 24px; /* Increase the font size */
+    margin-left: 0.5em; /* Add a little space to the left */
+    margin-bottom: 1em; /* Add some space below the title before the entries */
+}
+
+.home-link {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Keeps the original text color */
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    /* Add any additional styling for the link here */
 }

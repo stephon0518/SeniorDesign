@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useLocation } from "react-router-dom";
 import "./cityScopeSearchResults.css";
+import { Link } from 'react-router-dom';
+
 
 export default function CityScopeSearchResults() {
     const location = useLocation();
@@ -35,10 +37,12 @@ export default function CityScopeSearchResults() {
     return (
         <div className="container">
             <header className="search-header">
-                <img src={`${process.env.PUBLIC_URL}/CityScopeLogo.jpg`} alt="CityScope Logo" className="logo" />
-                <h1>CityScope</h1>
+                <Link to="/" className="home-link">
+                    <img src={`${process.env.PUBLIC_URL}/CityScopeLogo.jpg`} alt="CityScope Logo" className="logo" />
+                    <h1>CityScope</h1>
+                </Link>
             </header>
-            <div>Search Results</div>
+            {/*<p2>Search Results</p2>*/}
             <select value={filter} onChange={handleFilterChange}>
                 <option value="default">Select Filter</option>
                 <option value="highest-rated">Highest Rated</option>
@@ -47,12 +51,17 @@ export default function CityScopeSearchResults() {
                 <option value="least-reviewed">Least Reviewed</option>
                 <option value="highest-price">Highest Price</option>
                 <option value="Lowest Price">Lowest Price</option>
-                {/* Add more options for other filters */}
+                {/* Add more options for other filters */}             
             </select>
+            <h2 className='search-results-title'>Search Results</h2>
             {filteredBusinesses.map((business, index) => (
                 <div className="business-entry" key={index}>
                     <div key={index}>
-                        <p>{business.name}</p>
+                        <p1> 
+                            <a href={business.url} target="_blank" rel="noopener noreferrer">
+                                {business.name}
+                            </a>
+                        </p1>
                         <img src={business.image_url} alt={business.name} />
                         <p>Address: 
                             <a 
@@ -62,7 +71,11 @@ export default function CityScopeSearchResults() {
                             {business.location.address1}, {business.location.city}, {business.location.zip_code}
                             </a>
                         </p>
-                        <p>Phone: {business.display_phone}</p>
+                        <p>Phone: 
+                            <a href={`tel:${business.display_phone.replace(/\D/g, '')}`}>
+                            {business.display_phone}
+                            </a>
+                        </p>
                         <p>Rating: {business.rating} Stars</p>
                         <p>Price: {business.price}</p>
                         <p>Review Count: {business.review_count}</p>

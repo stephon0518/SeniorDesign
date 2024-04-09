@@ -5,6 +5,7 @@ html, body {
 }
 
 body {
+    /*background: linear-gradient(to right, #890519, #ffffff);*/
     background-color: #890519;
     height: 100%;
 }
@@ -42,4 +43,120 @@ input[type=text] {
     position: relative;
     left: 10px;
     padding: 5px 6px;
+}
+
+/* Existing styles... */
+
+.search .dropdown {
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border: 1px solid #ddd;
+    border-top: none;
+    z-index: 10;
+}
+
+.search .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    text-align: left; /* Align text to match the input field */
+    background-color: #fff; /* Background color for dropdown items */
+    border-bottom: 1px solid #ddd;
+}
+
+.search .dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Additional styles to reset the dropdown container's margin and padding */
+.search .dropdown {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: Adds a shadow for depth */
+}
+
+/* Ensure the list items do not have bullets and are displayed as block elements */
+.search .dropdown-item {
+    list-style: none; /* Remove bullet points from list items */
+    display: block; /* Display as block for proper spacing */
+}
+
+.home-container {
+    text-align: center; /* Centers the content */
+    padding: 2rem 0;
+}
+
+.search-container input[type="text"], .search-container .search-button {
+    font-size: 1.1rem; /* Larger font size for search input and button */
+    padding: .8rem 1rem; /* Increase padding for a larger touch area */
+}
+
+
+.most-searched .category-button {
+    margin-top: 300px;
+    font-size: 1rem; /* Larger font for buttons */
+    padding: .6rem 1.2rem; /* Generous padding for aesthetic spacing */
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text for contrast */
+    border: 2px solid #890519; /* Border color matching your theme */
+    border-radius: 30px; /* Rounded corners for pill-like buttons */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.most-searched-title {
+    margin-top: 300px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center buttons container */
+    gap: 10px; /* Spacing between buttons */
+    
+}
+
+.most-searched .category-button:hover {
+    background-color: #890519; /* Theme color for hover */
+    color: #fff; /* White text for hover */
+    text-decoration: none; /* No underline on hover */
+}
+
+@media (max-width: 600px) {
+    /* For smaller screens, adjust button sizes or layout */
+    .category-button {
+        flex: 1 1 calc(50% - 20px); /* 2 items per row on smaller screens */
+        max-width: calc(50% - 20px);
+    }
+}
+
+html {
+    font-size: 18px; /* Increase base font-size to zoom in on all text */
+}
+
+/* Footer Bar Styles */
+.footer-bar {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 1rem 0; /* Padding above and below the text */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.footer-link {
+    color: #fff; /* Set the text color the same as the footer bar for a seamless look */
+    text-decoration: none; /* Removes the underline from the link */
+    transition: color 0.3s ease; /* Optional: Adds a transition effect on color change */
+}
+
+.footer-link:hover {
+    color: #ddd; /* Lightens the link color on hover for a visual feedback */
 }
