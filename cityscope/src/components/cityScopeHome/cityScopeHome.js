@@ -87,6 +87,8 @@
     import './cityScopeHome.css';
     import cityScopeDetailsinfo from '../cityScopeDetailsInfo/cityScopeDetailsinfo';
     import { Link } from 'react-router-dom';
+    // require('token.env').config();
+    // const yelpApiKey = process.env.API_KEY
     
     export default function CityScopeHome() {
         const [showOptions, setShowOptions] = useState(false);
@@ -133,6 +135,7 @@
         return (
             <div>
                 <Typography className="pageTitle" variant="h2" align="center">
+                    {/* <img src={`${process.env.PUBLIC_URL}/result.png`} alt="CityScope Logo" className="logo" /> */}
                     CityScope
                 </Typography>
     
@@ -146,9 +149,20 @@
                     <button className='button' onClick={() => handleSearch()}>Search</button>
                 </div>
                 <div className="most-searched">
-                    {/*<Typography variant="h5" className="most-searched-title">Most Searched</Typography>*/}
+                    <h5 align="center" >Most Searched Categories</h5>
+                    <div className="buttons-container-top">
+                        {popularCategories.slice(0,3).map((item, index) => (
+                            <button
+                                key={index}
+                                className="category-button"
+                                onClick={() => handleOptionClick(item)}
+                            >
+                                {item}
+                            </button>
+                        ))}
+                    </div>
                     <div className="buttons-container">
-                        {popularCategories.map((item, index) => (
+                        {popularCategories.slice(3).map((item, index) => (
                             <button
                                 key={index}
                                 className="category-button"

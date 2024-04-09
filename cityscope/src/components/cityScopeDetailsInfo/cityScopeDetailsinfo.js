@@ -19,7 +19,7 @@ const teamMembers = [
   // ... more team members
 ];
 
-export default function cityScopeDetailsinfo() {
+export default function CityScopeDetailsInfo() {
     return (
         <div className="site-details-container">
             <header className="site-details-header">
@@ -45,5 +45,7 @@ export default function cityScopeDetailsinfo() {
                 </div>
             </section>
         </div>
-    );
+    );  
 }
+
+
