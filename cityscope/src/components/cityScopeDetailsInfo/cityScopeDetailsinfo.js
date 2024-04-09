@@ -1,22 +1,27 @@
 import React from 'react';
-import './cityScopeDetailsinfo.css'; // Assume you have a CSS file for styling
+import './cityScopeDetailsinfo.css'; 
 
 const teamMembers = [
   {
-    name: 'Alice Johnson',
-    role: 'Project Manager',
-    imageUrl: 'path-to-image-of-alice',
-    description: 'Alice is the project manager with over 10 years of experience...'
-    // ... other member details
+    name: 'Stephon Mensah',
+    role: 'Developer',
+    imageUrl: `${process.env.PUBLIC_URL}/stephon2.jpg`,
   },
   {
-    name: 'Bob Smith',
-    role: 'Lead Developer',
-    imageUrl: 'path-to-image-of-bob',
-    description: 'Bob is the technical lead who loves coding and solving complex problems...'
-    // ... other member details
+    name: 'Tamera Meadows',
+    role: 'Developer',
+    imageUrl: `${process.env.PUBLIC_URL}/tamera.jpg`,
   },
-  // ... more team members
+    {
+    name: 'Al Ayoola',
+    role: 'Developer',
+    imageUrl: `${process.env.PUBLIC_URL}/al1.jpg`,
+  },
+    {
+    name: 'Pacific Mugisha',
+    role: 'Developer',
+    imageUrl: `${process.env.PUBLIC_URL}/pacific.jpg`,
+  },
 ];
 
 export default function CityScopeDetailsInfo() {
@@ -28,7 +33,9 @@ export default function CityScopeDetailsInfo() {
             <section className="site-description">
                 <h2>About CityScope</h2>
                 <p>
-                    CityScope is a platform designed to help you discover the best places around you...
+                    CityScope is a platform designed to help you discover the best places around you!
+                    Are you looking for the best Coffee in Cincinnati? Enter "Coffee" into the search box
+                    and a list of coffee shops to pick from will be displayed to you. 
                 </p>
             </section>
             <section className="team-section">
@@ -47,5 +54,3 @@ export default function CityScopeDetailsInfo() {
         </div>
     );  
 }
-
-
