@@ -26,7 +26,8 @@ Web application that recommends places to visit in Cincinnati based on what youâ
 
 ## [PPT Slideshow](https://github.com/stephon0518/SeniorDesign/blob/main/Assignments/PPT%20Slideshow.pptx)
 
-## [Self-Assessment Essays](https://github.com/stephon0518/SeniorDesign/tree/main/Assignments/IndividualCapstones)
+## Self Assesments
+ - [Self-Assessment Essays](https://github.com/stephon0518/SeniorDesign/tree/main/Assignments/IndividualCapstones)
 
 ## [Professional Biographies](https://github.com/stephon0518/SeniorDesign/tree/main/ProfessionalBios)
 
@@ -34,5 +35,4 @@ Web application that recommends places to visit in Cincinnati based on what youâ
  - No expenses
    
 ## Appendix
- - [Code]()
- - there should be evidence justifying 45 hours of effort for each team member (on the way)
+ - [Code](https://github.com/stephon0518/SeniorDesign/tree/main/cityscope)
