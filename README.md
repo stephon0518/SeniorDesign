@@ -31,8 +31,8 @@ Web application that recommends places to visit in Cincinnati based on what youâ
 ## [Professional Biographies](https://github.com/stephon0518/SeniorDesign/tree/main/ProfessionalBios)
 
 ## Budget
- - No expenses up to this point
+ - No expenses
    
 ## Appendix
- - include appropriate references, citations, links to code repositories, and meeting notes (on the way)
+ - [Code]()
  - there should be evidence justifying 45 hours of effort for each team member (on the way)
