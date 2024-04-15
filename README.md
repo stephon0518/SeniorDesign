@@ -30,7 +30,7 @@ CityScope is a web application that recommends places to visit in Cincinnati bas
  - [Self-Assessment Essays](https://github.com/stephon0518/SeniorDesign/tree/main/Assignments/IndividualCapstones)
 
 ## Summary of Hours 
- - [Al](https://github.com/stephon0518/SeniorDesign/blob/main/Al-SummaryOfHours.pdf)
+ - [Al Ayoola](https://github.com/stephon0518/SeniorDesign/blob/main/Al-SummaryOfHours.pdf)
 
 ##  Summary of Expenses
  - No expenses
