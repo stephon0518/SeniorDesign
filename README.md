@@ -26,6 +26,8 @@ Web application that recommends places to visit in Cincinnati based on what youâ
 
 ## [PPT Slideshow](https://github.com/stephon0518/SeniorDesign/blob/main/Assignments/PPT%20Slideshow.pptx)
 
+## [Final Expo Poster]([https://github.com/stephon0518/SeniorDesign/blob/main/Assignments/PPT%20Slideshow.pptx](https://github.com/stephon0518/SeniorDesign/blob/main/SeniorDesignPoster.pdf))
+
 ## Self Assesments
  - [Self-Assessment Essays](https://github.com/stephon0518/SeniorDesign/tree/main/Assignments/IndividualCapstones)
 
