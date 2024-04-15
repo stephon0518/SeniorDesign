@@ -38,3 +38,4 @@ Web application that recommends places to visit in Cincinnati based on what youâ
    
 ## Appendix
  - [Code](https://github.com/stephon0518/SeniorDesign/tree/main/cityscope)
+ - To run the project from your local machine, clone the repository, cd into the cityscope folder, then run 'npm start'
