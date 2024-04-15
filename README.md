@@ -8,7 +8,7 @@
 
 ### Project Advisor - Dr. Fred Annexstein
 ## Project Abstract
-Web application that recommends places to visit in Cincinnati based on what you’re looking for. So, restaurants, museums, parks, libraries, coffee shops, etc. Let's say you're looking for coffee shops in Cincinnati. Enter that into the search box and a list of coffee shops will be displayed. The user will then be able to sort the list of recommended coffee shops by rating, price or number of reviews. 
+CityScope is a web application that recommends places to visit in Cincinnati based on what you’re looking for. So, restaurants, museums, parks, libraries, coffee shops, etc. Let's say you're looking for coffee shops in Cincinnati. Enter that into the search box and a list of coffee shops will be displayed. The user will then be able to sort the list of recommended coffee shops by rating, price or number of reviews. 
 
 ## [Project Description](https://github.com/stephon0518/SeniorDesign/blob/main/Project-Description.md)
 
@@ -23,6 +23,8 @@ Web application that recommends places to visit in Cincinnati based on what you�
  - [Effort Matrix](https://github.com/stephon0518/SeniorDesign/blob/main/Project%20Tasks%20and%20Timeline/Effort%20Matrix)
 
 ## [ABET Concerns Essay](https://github.com/stephon0518/SeniorDesign/blob/main/Assignments/ABET%20Concerns%20Essay.pdf)
+
+## [Test Plan](https://github.com/stephon0518/SeniorDesign/blob/main/Test-Plan.pdf)
 
 ## [PPT Slideshow](https://github.com/stephon0518/SeniorDesign/blob/main/Assignments/PPT%20Slideshow.pptx)
 
