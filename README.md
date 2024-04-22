@@ -40,3 +40,4 @@ CityScope is a web application that recommends places to visit in Cincinnati bas
 ## Appendix
  - [Code](https://github.com/stephon0518/SeniorDesign/tree/main/cityscope)
  - To run the project from your local machine, clone the repository, cd into the cityscope folder, then run 'npm start'
+ - Or using the URL from deployment, open this link - [prelink](https://cors-anywhere.herokuapp.com/) and press the button. Then open the link for the actual web application [CityScope](http://ec2-23-22-46-130.compute-1.amazonaws.com)
